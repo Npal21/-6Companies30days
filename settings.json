@@ -1,7 +1,0 @@
-{
-    "code-runner.executorMap": {
-      "cpp": "g++ -std=c++17 $fullFileName -o $fileNameWithoutExt && ./$fileNameWithoutExt"
-    },
-    "code-runner.runInTerminal": true
-  }
-  
