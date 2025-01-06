@@ -38,10 +38,10 @@ public:
         long long ans = 0; // To store the maximum product
 
         // Iterate over all possible subsets of the string
-        for (int i = 0; i < (1 << n); i++) { 
+        for (int i = 0; i < (1 << n); i++) { //2^n subsequences
             string x = "", y = ""; // Two subsets x and y
             for (int j = 0; j < n; j++) {
-                if (i & (1 << j)) 
+                if (i & (1 << j))  //1 << 3 means 1*2*2*2
                     x += s[j]; // Include character in subset x
                 else 
                     y += s[j]; // Include character in subset y
