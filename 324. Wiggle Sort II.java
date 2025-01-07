@@ -1,5 +1,7 @@
 
 //Link: https://leetcode.com/problems/wiggle-sort-ii/
+//TC: O(nlogn) -> Sorting
+//SC: O(n) -> Array
 
 class Solution {
     public void wiggleSort(int[] nums) {
