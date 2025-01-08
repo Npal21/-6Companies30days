@@ -1,5 +1,7 @@
 
 //Link: https://leetcode.com/problems/first-unique-character-in-a-string/
+//TC: O(n)
+//SC: O(1)
 
 class Solution {
     public int firstUniqChar(String s) {
