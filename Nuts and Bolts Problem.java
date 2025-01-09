@@ -1,5 +1,7 @@
 
 //Link: https://www.geeksforgeeks.org/problems/nuts-and-bolts-problem0431/1
+//TC: O(n)
+//SC: O(1)
 
 class Solution {
     void matchPairs(int n, char nuts[], char bolts[]) {
